@@ -1,7 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SC556 - Assignment 03
 % Author: Narmada Balasooriya
-% Registration Number: PGIS/SC/MSC/CSC/17/06
 % Harris corner detection implementation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -79,7 +77,6 @@ function [rows, cols] = harris_corner(image)
     
     figure(2);
     imshow(image); hold on;
-    plot(rows, cols, '*r');
-    
+    plot(rows, cols, '*r');   
     
 end
